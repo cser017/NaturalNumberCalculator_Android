@@ -75,14 +75,15 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-//        for(int i=0; i<bDigits.length && bDigits[i]!=null; i++){
-//            bDigits[i].setOnClickListener(new OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    tTop.setText(bDigits[i].toString()+" pressed!");
-//                }
-//            });
-//        }
+        for(int i=0; i<bDigits.length && bDigits[i]!=null; i++){
+            final int temp = i;
+            bDigits[i].setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    tTop.setText("button pressed!");
+                }
+            });
+        }
 
         //set on click listener
 
