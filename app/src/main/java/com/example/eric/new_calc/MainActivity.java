@@ -281,5 +281,6 @@ public class MainActivity extends AppCompatActivity {
         updateViewToMatchModel(top,bottom);
     }
     //end of calculation
+    //git test
 
 }
