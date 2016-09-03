@@ -1,3 +1,3 @@
 # NEW_CALC
 This is android version of Natual Number Calculator.
-This is for further develop Android Chess Application
+This is for further development of Android Chess Application
