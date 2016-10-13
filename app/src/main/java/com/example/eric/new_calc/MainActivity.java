@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button bClear = (Button) findViewById(R.id.b_clear);
-        final Button bSwap = (Button) findViewById(R.id.b_swap);
+        final Button buttonClear = (Button) findViewById(R.id.b_clear);
+        final Button buttonSwap = (Button) findViewById(R.id.b_swap);
         final Button bEnter = (Button) findViewById(R.id.b_enter);
-        final Button bAdd = (Button) findViewById(R.id.b_add);
+        final Button buttonAdd = (Button) findViewById(R.id.b_add);
         final Button bSubtract = (Button) findViewById(R.id.b_sub);
         final Button bMultiply = (Button) findViewById(R.id.b_multy);
         final Button bDivide = (Button) findViewById(R.id.b_div);
@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
                 (Button) findViewById(R.id.b9)
         };
 
-        if(bClear!=null)
-        bClear.setOnClickListener(new OnClickListener() {
+        if(buttonClear!=null)
+        buttonClear.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 processClearEvent();
@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        if(bSwap!=null)
-        bSwap.setOnClickListener(new OnClickListener() {
+        if(buttonSwap!=null)
+        buttonSwap.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 processSwapEvent();
@@ -81,8 +81,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        if(bAdd!=null) {
-            bAdd.setOnClickListener(new OnClickListener() {
+        if(buttonAdd!=null) {
+            buttonAdd.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     processAddEvent();

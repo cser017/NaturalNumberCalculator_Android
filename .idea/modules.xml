@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NEW_CALC.iml" filepath="$PROJECT_DIR$/NEW_CALC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NaturalNumberCalculator_Android.iml" filepath="$PROJECT_DIR$/NaturalNumberCalculator_Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
